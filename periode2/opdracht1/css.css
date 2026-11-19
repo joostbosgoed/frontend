@@ -20,19 +20,19 @@
 	border: 5px solid #f0f;
 }
 
+[class^="col-"] {
+    padding: var(--column-padding);
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    align-items: center;
+    border: 3px solid #000;   /* <-- de border zat hierin */
+}
+
 .row {
 	display: flex;
 	flex-wrap: nowrap;
 	gap: var(--column-gap);
-}
-
-[class^="col-"] {
-	padding: var(--column-padding);
-	display: flex;
-	flex-grow: 1;
-	flex-shrink: 1;
-	align-items: center;
-	border: 1px solid #000;
 }
   .col-1 {
     flex-grow: 0;
