@@ -93,3 +93,35 @@
 .flip .row{
   	flex-direction: row-reverse;
 }
+
+@media (max-width: 576px) {
+    .row {
+      display: block;
+	    flex-wrap: wrap;
+	    gap: var(--column-gap);
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+}
+  @media (min-width: 0px) {
+    .container {
+        border: 5px solid rgb(174, 255, 0);
+    }
+  }
+
+  @media (min-width: 200px) {
+    .container {
+        border: 5px solid rgb(38, 195, 203);
+    }
+  }
+    @media (min-width: 300px) {
+    .container {
+        border: 5px solid rgb(79, 38, 203);
+    }
+  }
+      @media (min-width: 576px) {
+    .container {
+        border: 5px solid red;
+    }
+  }
