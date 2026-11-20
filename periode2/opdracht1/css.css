@@ -26,7 +26,7 @@
     flex-grow: 1;
     flex-shrink: 1;
     align-items: center;
-    border: 3px solid #000;   /* <-- de border zat hierin */
+    border: 3px solid #000;
 }
 
 .row {
@@ -83,3 +83,10 @@
         flex-grow: 0;
     flex-basis: 100%;
   }
+
+/* Menu links onder elkaar in plaats van naast elkaar */
+.menu {
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 8px;
+}
