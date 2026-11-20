@@ -90,3 +90,6 @@
 	align-items: flex-start;
 	gap: 8px;
 }
+.flip .row{
+  	flex-direction: row-reverse;
+}
